@@ -7,8 +7,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+          primarySwatch: Colors.blue,
+          iconTheme: IconThemeData(color: Colors.amber)),
       home: HomePage(title: 'Flutter Dojo Meteo App'),
     );
   }
